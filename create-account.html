@@ -5,28 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pocatello Eats | Home</title>
+    <title>Pocatello Eats | Login</title>
 </head>
 <body>
     <div id="content">
         <header>
-            <a id="logo_link" href="home.html">
+            <a id="logo_link" href="index.html">
                 <img class="logo" src="images/icons8-food-and-wine-64.png" alt="Site Logo">
             </a>
             <nav>
-                <a href="home.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="login.html">Login</a>
                 <a href="faq.html">FAQ</a>
             </nav>
         </header>
         <main>
-
+            <div id="login"></div>
+            <form action="/login-form-page" method="post">
+                <ul>
+                    <li>
+                        <label for="user_name">Username:</label>
+                        <input type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" />
+                    </li>
+                    <li>
+                        <label for="mail">Email:</label>
+                        <input type="mail" id="mail" name="user_email" />
+                    </li>
+                    <li class="button">
+                        <button type="submit">Create Account</button>
+                    </li>
+                </ul>
+            </form>
+            <button onclick="window.location.href='login.html';">Login</button>
         </main>
         <footer>
             <p>Pocatello Eats &copy; 2023 - Tyler Wright</p>
-            <p><a href="home.html">Home</a></p>
-            <p><a href="login.html">Contact Us</a></p>
-            <p><a href="faq.html">Contact Us</a></p>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="login.html">Login</a></p>
+            <p><a href="faq.html">FAQ</a></p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="images/facebook.png" alt="fb icon">
