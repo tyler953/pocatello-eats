@@ -79,7 +79,7 @@ footer nav {
     margin: 30px;
 }
 
-footer nav a:visited, header nav a:link{
+footer nav a:visited, footer nav a:link{
     color: #917a61;
 }
 
