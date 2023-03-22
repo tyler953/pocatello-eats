@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/create-account.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,6 +62,16 @@
                 </a>
             </div>
         </footer>
+        <script>
+            const feedbackElement =document.getElementById('login');
+            const formElement = document.forms[0];
+            formElement.addEventListener('submit', function(e) {
+                e.preventDefault();
+                feedbackElement.innerHTML = 'Welcome back '+ formElement.user_name.value +'!'
+                feedbackElement.style.display = "block";
+                document.body.classList.toggle('moveDown');
+            });
+        </script>
     </div>
 </body>
 </html>

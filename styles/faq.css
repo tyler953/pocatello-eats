@@ -84,12 +84,17 @@ body h1 {
     border: 10px solid #d9c2a3;
     box-shadow: 5px 5px 10px #6f7364;
     color: #e3b686;
+    font-size:larger;
 }
 
 .question {
     background:#689689;
     width: auto;
     padding: 10px;
+}
+
+.answer {
+    font-weight: 100;
 }
 
 #last {
