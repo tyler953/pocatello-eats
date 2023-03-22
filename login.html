@@ -21,22 +21,32 @@
         </header>
         <main>
             <div id="login"></div>
-            <form action="/login-form-page" method="post">
-                <ul>
-                    <li>
-                        <label for="user_name">Username:</label>
-                        <input type="text" id="name" name="user_name" />
-                    </li>
-                    <li>
-                        <label for="password">Password:</label>
-                        <input type="password" id="mail" name="user_email" />
-                    </li>
-                    <li class="button">
-                        <button type="submit">Login</button>
-                    </li>                    
-                </ul>
-            </form>
-            <button onclick="window.location.href='create-account.html';">Create Account</button>
+            <div id="card">
+                <form action="/login-form-page" method="post">
+                    <ul>
+                        <li>
+                            <label for="user_name">Username:</label>
+                            <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                            <label for="password">Password:</label>
+                            <input type="password" id="mail" name="user_email" />
+                        </li>
+                        <li class="button">
+                            <div class="container">
+                                <div class="center">
+                                    <button type="submit">Login</button>
+                                </div>
+                            </div>
+                        </li>                    
+                    </ul>
+                </form>
+            </div>
+            <div class="accountcontainer">
+                <div class="center">
+                    <button onclick="window.location.href='create-account.html';">Make a free account</button>
+                </div>
+            </div>
         </main>
         <footer>
             <p>Pocatello Eats &copy; 2023 - Tyler Wright</p>

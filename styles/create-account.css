@@ -62,7 +62,8 @@ form {
     width: 400px;             
     padding: 1em;             
     border: 1px solid #ccc;             
-    border-radius:1em;         
+    border-radius:1em;   
+    background: #e3b686;      
 }
         
 ul {             
@@ -97,14 +98,6 @@ textarea {
     height: 5em;         
 }          
 
-.button {             
-    padding-left: 90px;         
-}          
-
-button {             
-    margin-left: 0.5em;         
-}          
-
 #login {             
     background-color: antiquewhite;             
     position: absolute;             
@@ -118,6 +111,38 @@ button {
 .moveDown {             
     margin-top: 3em;  
 }       
+
+.container {
+    height: 20px;
+    position: relative;
+}
+
+.logincontainer {
+    height: 20px;
+    position: relative;
+    padding-bottom: 117px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#loginbutton {
+    padding: 10px;
+}
+
+#card {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background: #689689;
+}
+
+
 
 
 footer {
