@@ -77,7 +77,7 @@
             const formElement = document.forms[0];
             formElement.addEventListener('submit', function(e) {
                 e.preventDefault();
-                feedbackElement.innerHTML = 'Welcome back '+ formElement.user_name.value +'!'
+                feedbackElement.innerHTML = 'Welcome,'+ formElement.user_name.value +'!'
                 feedbackElement.style.display = "block";
                 document.body.classList.toggle('moveDown');
             });
