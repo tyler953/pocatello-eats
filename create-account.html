@@ -20,9 +20,9 @@
             </nav>
         </header>
         <main>
-            <div id="login"></div>
+            <div id="create-account"></div>
             <div id="card">
-                <form action="/login-form-page" method="post">
+                <form action="/create-account-form-page" method="post">
                     <ul>
                         <li>
                             <label for="user_name">Username:</label>
@@ -73,7 +73,7 @@
             </div>
         </footer>
         <script>
-            const feedbackElement =document.getElementById('login');
+            const feedbackElement =document.getElementById('create-account');
             const formElement = document.forms[0];
             formElement.addEventListener('submit', function(e) {
                 e.preventDefault();

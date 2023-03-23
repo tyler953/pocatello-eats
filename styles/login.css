@@ -74,13 +74,13 @@ ul {
 
 form li + li {             
     margin-top: 1em;         
-}          
+}
 
 label {             
     display: inline-block;             
     width: 90px;             
     text-align: right;         
-}          
+}
 
 input, textarea {             
     font: 1em sans-serif;             
